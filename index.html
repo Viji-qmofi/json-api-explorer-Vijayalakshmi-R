@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API Interaction Project</title>
+     <script src="script.js" defer></script>
 
 </head>
 <body>
@@ -15,12 +16,12 @@
             <div>
                 <label for="titleInput">Title:</label>
                 <input type="text" id="titleInput" name="title" required>
-            </div>
+            </div><br/>
             <div>
                 <label for="bodyInput">Body:</label>
                 <textarea id="bodyInput" name="body" rows="4" required></textarea>
-            </div>
-            <button type="submit">Submit Post</button>
+            </div><br/>
+            <button type="submit">Submit Post</button><br/>
         </form>
         <div id="formError"></div>
         <div id="formSuccess"></div>
@@ -33,6 +34,6 @@
         <div id="postList"></div>
     </section>
 
-    <script src="script.js"></script>
+   
 </body>
 </html>
